@@ -1,0 +1,74 @@
+main{
+   /* background-color: #F5F6F8; */
+   display: grid;
+   height: 90%;
+   align-items: center;
+   position: relative;
+   z-index: 222;
+}
+
+.main-img{
+   background-image:url(../imgs/verne-ho-0LAJfSNa-xQ-unsplash.jpg);
+   background-repeat: no-repeat;
+   /* background-attachment: fixed; */
+   background-size: cover;
+   position: absolute;
+   z-index: -1;
+   top: 0;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   opacity: .4;
+   width: 100%;
+   height: 100%;
+}
+
+.main-bg{
+   display: flex;
+   flex-direction: column;
+   gap: 30px;
+   justify-content: center;
+   align-items: center;
+}
+
+.main-conteudo{
+   padding: 120px 70px;
+   position: relative;
+   padding-left: 15px;
+   max-width: 65ch;
+}
+
+.main-conteudo h1{
+   text-align: center;
+   color: #1F2044;
+   font-family: 'Poppins';
+   font-size: 3.5rem;
+   margin-bottom: 25px;
+}
+
+.main-conteudo p{
+   margin: 0 auto;
+   text-align: center;
+   max-width: 45ch;
+   font-size: 1.1rem;
+   color: #1F2044;
+   font-family: 'Poppins';
+   margin-bottom: 35px;
+}
+
+.main-conteudo button{
+   display: flex;
+   margin: 0 auto;
+}
+
+.main-conteudo a{
+   color: #1F2044;
+   font-family: 'Poppins';
+   font-weight: 500;
+   font-size: 0.925rem;
+}
+
+.main-img img{
+   max-width: 380px;
+   height: auto;
+}

@@ -1,0 +1,28 @@
+.quem-somos-bg{
+   display: grid;
+   grid-template-columns: auto auto;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.quem-somos-bg p{
+   max-width: 65ch;
+   line-height: 1.6;
+   position: relative;
+   padding-top: 10px;
+}
+
+.quem-somos-bg p::before{
+   content: "";
+   display: inline-block;
+   width: 25px;
+   height: 4px;
+   background-color: var(--vermelho);
+   position: absolute;
+   top: 0;
+}  
+
+.quem-somos-img img{
+   max-width: 300px;
+   height: auto;
+}

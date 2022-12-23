@@ -1,0 +1,47 @@
+header{
+   padding-top: 25px;
+   padding-bottom: 20px;
+   background-color: #F6F6F9;
+}
+
+.header-bg{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.logo{
+   display: flex;
+   justify-content: flex-start;
+}
+
+.header-conteudo ul{
+   display: flex;
+   gap: 30px;
+}
+
+
+.header-conteudo a{
+   font-size: 1.2rem;
+   color: #000000;
+   transition: 0.2s;
+   display: inline-block;
+   padding: 16px 0;
+   position: relative;
+}
+
+.header-conteudo a::after {
+   content: "";
+   display: block;
+   height: 2px;
+   width: 0px;
+   background: black;
+   position: absolute;
+   margin-top: 4px;
+   transition: 0.3s;
+ }
+ 
+ .header-conteudo a:hover::after,
+ .header-conteudo a.ativo::after {
+   width: 100%;
+ }

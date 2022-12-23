@@ -1,0 +1,19 @@
+.clientes{
+   z-index: 2000000;
+   position: relative;
+   background-color: #F6F6F9;
+}
+
+.clientes-bg h2{
+   font-size: 3rem;
+   font-family: 'Poppins';
+   margin-bottom: 30px;
+   text-align: center;
+   color: var(--cor-principal);
+}
+
+.clientes-img{
+   margin-bottom: 15px;
+   display: flex;
+   justify-content: space-around;
+}

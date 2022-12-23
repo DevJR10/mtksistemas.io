@@ -1,0 +1,218 @@
+.contato-bg{
+   padding-bottom: 0;
+   box-shadow: inset 0 -80px #F6F6F9;   
+}
+
+.contato-grid > h2{
+   margin-bottom: 20px;
+   text-align: center;
+}
+
+.contato-grid{
+   max-width: 1200px;
+   margin: 60px auto 0 auto;
+   opacity: 0;
+   transform: translate3d(0,60px,0);
+   transition: 0.6s;
+   max-width: 1000px;
+   padding-left: 40px;
+   padding-right: 40px;
+   margin: 0 auto;
+   display: block;
+}
+
+.contato-grid{
+   opacity: 1;
+   transform: translate3d(0,0,0);
+}
+.contato-form{
+   overflow-x: hidden;
+   border-radius: 7px;
+   box-shadow: 0px 0px 20px 0 rgb(0 0 0 / 10%);
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   align-items: flex-start;
+   background-color: white;
+   padding: 40px;
+   gap: 0 60px;
+}
+
+.contato-texto p{
+   padding-bottom: 50px;
+   padding-top: 80px;
+   color: var(--cor-principal);
+   font-size: 1.225rem;
+   line-height: 1.5;
+   text-align: justify;
+}
+
+.contato-texto img{
+   padding: 0 15px;
+}
+
+.img-contato p{
+   padding: 0;
+   font-family: 'Roboto', sans-serif;
+   font-size: 1.1rem;
+   margin-bottom: 10px;
+}
+
+.face-contato{
+   padding-left: 0 !important;
+}
+
+.contato-grid form{
+   display: flex;
+   flex-direction: column;
+   border-radius: 7px;
+   min-width: 80px;
+}
+
+.contato-grid form input{
+   font-family: 'Poppins', sans-serif;
+   outline: none;
+   display: block;
+   border: 1px solid #eee;
+   background-color: #eee;
+   padding: 20px 10px;
+   margin-bottom: 20px;
+   font-size: 1.1rem;
+   transition: 0.2s;
+}
+
+.contato-grid form input:hover{
+   background-color: #ffffff;
+   box-shadow: 0px 0px 20px 0 rgb(0 0 0 / 10%);
+   border: 1px solid var(--vermelho);
+}
+.contato-grid form input:focus{
+   background-color: #ffffff;
+   box-shadow: 0px 0px 20px 0 rgb(0 0 0 / 10%);
+   border: 1px solid var(--vermelho);
+}
+
+.contato-grid form textarea{
+   display: inline-block;
+   resize: none;
+   border: 1px solid #eee;
+   background-color: #eee;
+   outline: none;
+   font-size: 1.1rem;
+   border-radius: 4px;
+   font-family: 'Poppins', sans-serif;
+   padding: 20px 10px;
+   transition:0.2s;
+}
+
+.contato-grid form textarea:hover{
+   background-color: #ffffff;
+   box-shadow: 0px 0px 20px 0 rgb(0 0 0 / 10%);
+   border: 1px solid var(--vermelho);
+}
+.contato-grid form textarea:focus{
+   background-color: #ffffff;
+   box-shadow: 0px 0px 20px 0 rgb(0 0 0 / 10%);
+   border: 1px solid var(--vermelho);
+}
+
+.contato-grid form button{
+   margin-top: 20px;
+   font-family: 'Open Sans', sans-serif;
+   background-color: var(--vermelho);
+   display: inline-block;
+   font-size: 1.025rem;
+   padding: 12px 50px;
+   border-radius: 10px;
+}
+
+.contato-grid form button:hover{
+   cursor: pointer;
+}
+
+.contato-grid form .btn-enviado{
+   display: block;
+   margin-top: 20px;
+   font-family: 'Open Sans', sans-serif;
+   background-color: var(--vermelho);
+   display: inline-block;
+   font-size: 1.025rem;
+   padding: 12px 50px;
+   border-radius: 10px;
+}
+
+.js-scroll-contato{
+   opacity: 0;
+   transform: translate3d(0,30px,0);
+   transition: 0.7s;
+}
+
+.js-scroll-contato.ativo{
+   opacity: 1;
+   transform: translate3d(0,0,0);
+}
+
+@media (max-width:800px){
+   .contato-form{
+      border-radius: 7px;
+      box-shadow: 0px 0px 20px 0 rgb(0 0 0 / 10%);
+      display: grid;
+      grid-template-columns: 1fr;
+      align-items: flex-start;
+      background-color: var(--branco);
+      padding: 20px 20px 40px 20px;
+      gap: 40px;
+   }
+   .contato-grid h2{
+      font-size: 3rem;
+   }
+   .contato-texto p{
+      max-width: auto;
+      text-align: start;
+      padding-bottom: 0;
+      padding-top: 30px;
+   }
+   
+   .contato-form form textarea{
+      max-width: inherit;
+   }
+   .contato-texto .img-contato{
+      display: none;
+   }
+   .img-contato2{
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+   }
+   .img-contato2 img{
+      padding-left: 10px;
+      padding-right: 10px;
+   }
+   .contato-grid form button{
+      max-width: max-content;
+      margin: 20px auto 0 auto;
+   }
+   
+}
+
+@media(max-width:450px){
+   .contato-form{
+      max-width: auto;
+   }
+   .contato-texto p{
+      font-size: 1.1rem;
+   }
+   .contato-form form{
+      max-width: 100%;
+   }
+   .contato-form form input{
+      font-size: 1rem;
+   }
+   .contato-form form textarea{
+      font-size: 1rem;
+      max-width: 100%;
+   }
+   .contato-form .img-contato2 img{
+      max-width: 25px;
+      max-height: 25px;
+   }
+}

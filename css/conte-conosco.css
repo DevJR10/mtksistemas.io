@@ -1,0 +1,35 @@
+.conte-conosco-bg{
+   display: flex;
+   justify-content: space-around;
+   gap: 40px;
+}
+
+.conte-conosco-introducao{
+   position: relative;
+}
+
+.conte-conosco-introducao h2{
+   margin-bottom: 20px;
+}
+
+.conte-conosco-img{
+   position: relative;
+   background-color: white;
+   padding: 40px;
+   border-radius: 100%;
+}
+
+.conte-conosco-img img{
+   max-width: 250px;
+}
+
+.js-scroll-conte-conosco{
+   opacity: 0;
+   transform: translate3d(0,-30px,0);
+   transition: 0.6s;
+}
+
+.js-scroll-conte-conosco.ativo{
+   opacity: 1;
+   transform: translate3d(0,0,0);
+}

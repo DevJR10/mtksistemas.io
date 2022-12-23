@@ -1,0 +1,70 @@
+.curiosidades{
+   background-color: #F6F6F9;
+}
+
+.curiosidades h2{
+   text-align: center;
+}
+
+.curiosidades-conteudo{
+   border-radius: 10px;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   padding: 40px;
+   background-color: #F0F0F0;
+   position: relative;
+}
+
+.curiosidades-conteudo::before{
+   content: "";
+   display: block;
+   background-color: var(--vermelho);
+   width: 13px;
+   border-radius: 100%;
+   height: 13px;
+   position: absolute;
+   bottom: 0;
+   left: 540px;
+}
+
+.curiosidades-conteudo::after{
+   content: "";
+   display: block;
+   background-color: black;
+   width: 13px;
+   border-radius: 100%;
+   height: 13px;
+   position: absolute;
+   bottom: 0;
+   right: 515px;
+}
+
+.curiosidades-texto p{
+   line-height: 1.8;
+   max-width: 45ch;
+   font-family: 'Merriweather', serif;
+   font-style: italic;
+}
+
+.curiosidades-texto span{
+   font-weight: bold;
+   display: block;
+   text-align: right;
+}
+
+.curiosidades-img img{
+   max-width: 250px;
+   height: auto;
+}
+
+.js-scroll-falam-nos{
+   opacity: 0;
+   transform: translate3d(0,-30px,0);
+   transition: 0.7s;
+}
+
+.js-scroll-falam-nos.ativo{
+   opacity: 1;
+   transform: translate3d(0,0,0);
+}

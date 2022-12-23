@@ -1,0 +1,20 @@
+@import 'header.css';
+@import 'produtos.css';
+@import 'utilitarios.css';
+@import 'main.css';
+@import 'clientes.css';
+@import 'conte-conosco.css';
+@import 'vantagens.css';
+@import 'curiosidades.css';
+@import 'quem-somos.css';
+@import 'contato.css';
+@import 'footer.css';
+
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+:root{
+   --cor-principal:#1F2044;
+   --vermelho:#F83931;
+}
