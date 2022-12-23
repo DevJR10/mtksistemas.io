@@ -10,7 +10,7 @@ main{
 .main-img{
    background-image:url(../imgs/verne-ho-0LAJfSNa-xQ-unsplash.jpg);
    background-repeat: no-repeat;
-   /* background-attachment: fixed; */
+   background-attachment: fixed;
    background-size: cover;
    position: absolute;
    z-index: -1;
