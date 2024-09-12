@@ -1,5 +1,7 @@
 .curiosidades{
    background-color: #F6F6F9;
+   padding-left: 20px;
+   padding-right: 20px;
 }
 
 .curiosidades h2{
@@ -67,4 +69,11 @@
 .js-scroll-falam-nos.ativo{
    opacity: 1;
    transform: translate3d(0,0,0);
+}
+
+@media (max-width:600px){
+   .curiosidades-conteudo{
+      flex-direction: column;
+      gap: 40px;
+   }
 }

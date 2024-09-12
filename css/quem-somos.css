@@ -1,8 +1,10 @@
+
 .quem-somos-bg{
-   display: grid;
-   grid-template-columns: auto auto;
+   display: flex;
+   justify-content: center;
    align-items: center;
-   justify-content: space-between;
+   padding-right: 20px;
+   padding-left: 20px;
 }
 
 .quem-somos-bg p{
@@ -25,4 +27,10 @@
 .quem-somos-img img{
    max-width: 300px;
    height: auto;
+}
+
+@media (max-width: 600px){
+   .quem-somos-bg{
+      flex-direction: column;
+   }
 }

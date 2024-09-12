@@ -406,9 +406,6 @@ strong {
 }
 
 @media(max-width:600px){
-   .item-3d {
-      margin-bottom: 25%;
-    }
    .item-content{
       flex-direction: column;
    }
