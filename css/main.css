@@ -72,7 +72,7 @@ main{
    height: auto;
 }
 
-@media (max-width:600px){
+@media (max-width:800px){
    .main-conteudo{
       padding: 120px 70px;
       position: relative;

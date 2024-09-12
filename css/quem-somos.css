@@ -29,7 +29,7 @@
    height: auto;
 }
 
-@media (max-width: 600px){
+@media (max-width: 800px){
    .quem-somos-bg{
       flex-direction: column;
    }
